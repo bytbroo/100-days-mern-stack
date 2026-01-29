@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>100 Days MERN Stack Challenge</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 900px;
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border-radius: 20px;
+      padding: 40px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 10px;
+      font-size: 2.2rem;
+    }
+
+    .subtitle {
+      text-align: center;
+      opacity: 0.85;
+      margin-bottom: 30px;
+    }
+
+    .days {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 16px;
+    }
+
+    .days a {
+      text-decoration: none;
+      color: #fff;
+      padding: 14px;
+      border-radius: 12px;
+      text-align: center;
+      background: rgba(255, 255, 255, 0.12);
+      transition: transform 0.2s ease, background 0.2s ease;
+    }
+
+    .days a:hover {
+      transform: translateY(-4px);
+      background: rgba(255, 255, 255, 0.22);
+    }
+
+    footer {
+      margin-top: 30px;
+      text-align: center;
+      font-size: 0.9rem;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>🚀 100 Days MERN Stack Challenge</h1>
+    <p class="subtitle">
+      Daily projects & learning — by Bytbroo
+    </p>
+
+    <div class="days">
+      <a href="./day-01/">Day 01</a>
+      <a href="./day-02/">Day 02</a>
+      <a href="./day-03/">Day 03</a>
+      <a href="./day-04/">Day 04</a>
+      <a href="./day-05/">Day 05</a>
+      <!-- Add more days as you progress -->
+    </div>
+
+    <footer>
+      Built with discipline · Deployed on GitHub Pages
+    </footer>
+  </div>
+</body>
+</html>
